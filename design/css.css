@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background: gray;
+}
+
+.navbar{
+    background-color: #0801cf;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #ffffff;
+    position: fixed;
+    width: 100%;
+    height: 13%;
+    border-radius: 10px;
+}
+
+.navigator{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.logo{
+    width: 7rem;
+}
+
+.nav-title{
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 90vh;
+    background: gray;
+}
+
+.hero-content{
+    background: lightblue;
+    border-radius: 10px;
+}
+
+.hero-content h1{
+    font-size: 3rem;
+    margin-bottom: 15px;
+}
+
+.hero-content p{
+    color: #b3b3b3;
+    margin-bottom: 25px;
+}
+
+.hero-btn{
+    background-color: #3498db;
+    color: #ffffff;
+    padding: 12px 30px;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: transform 0.3s ease-in-out;
+}
+.hero-btn:hover{
+    background-color: #1b85cc;
+    transform: scale(0.9);
+}
