@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background: gray;
+}
+
+.navbar{
+    background-color: #0801cf;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #ffffff;
+    position: fixed;
+    width: 100%;
+    height: 13%;
+    border-radius: 10px;
+    padding: 50px;
+}
+
+.navigator{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.nav-links a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+    padding: 10px;
+}
+
+.nav-links a:hover{
+    color: rgb(97, 23, 131);
+}
+
+.navigator{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.logo{
+    width: 7rem;
+}
+
+.logout-btn{
+    background: url(../Images/brick\ minecraft.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    padding: 5px;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: transform 0.3s ease-in-out;
+}
+.logout-btn:hover{
+    background-color: gold;
+    transform: scale(0.9);
+}
