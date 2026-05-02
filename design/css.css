@@ -91,10 +91,3 @@ body{
     background-color: gold;
     transform: scale(0.9);
 }
-
-.credit{
-    background-color: gold;
-    display: flex;
-    text-align: center;
-    align-items: center;
-}

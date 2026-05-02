@@ -3,10 +3,11 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
 }
 
 body{
-    background: gray;
+    background: #000000;
 }
 
 .navbar{
@@ -69,4 +70,16 @@ body{
 .logout-btn:hover{
     background-color: gold;
     transform: scale(0.9);
+}
+
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 70vh;
+}
+
+.hero-content{
+    gap: 20px;
 }
