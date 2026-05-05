@@ -7,7 +7,7 @@
 }
 
 body{
-    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../Images/Mario\ Background.jpg);
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),  url(../Images/Super_Mario_Clouds.gif);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -30,14 +30,12 @@ body{
     align-items: center;
     gap: 25px;
 }
-
 .nav-links{
     display: flex;
     gap: 40px;
 }
 
 .nav-links a{
-    color: white;
     text-decoration: none;
     font-weight: bold;
     transition: all 0.3s ease-in-out;
@@ -80,16 +78,24 @@ body{
     justify-content: center;
     align-items: center;
     text-align: center;
-    height: 70vh;
+    height: 90vh;
     cursor: default;
 }
 
-.hero-content{
-    gap: 20px;
+.hero h1{
+    color: red;
 }
 
-.mario-running{
-    position: relative;
-    top: -80px;
-    margin-bottom: 14px;
+.hero h3{
+    color: red;
+}
+
+.mario-flying{
+    position: absolute;
+    top: 260px;
+    left: -30px;
+}
+
+.message p{
+    color: white;
 }
