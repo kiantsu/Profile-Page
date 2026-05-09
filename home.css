@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+body{
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../Images/Mario\ Background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.navbar{
+    background-color: #0801cf;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #ffffff;
+    position: fixed;
+    width: 100%;
+    height: 13%;
+    border-radius: 10px;
+    padding: 50px;
+}
+
+.navigator{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.nav-links{
+    display: flex;
+    gap: 40px;
+}
+
+.nav-links a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+    padding: 10px;
+}
+
+.nav-links a:hover{
+    color: red;
+    transform: scale(0.9);
+}
+
+.navigator{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.logo{
+    width: 7rem;
+}
+
+.logout-btn{
+    background: url(../Images/brick\ minecraft.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: transform 0.3s ease-in-out;
+}
+.logout-btn:hover{
+    background-color: gold;
+    transform: scale(0.9);
+}
+
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 90vh;
+    cursor: default;
+}
+
+.hero-content{
+    padding: 15px;
+    border-radius: 20px;
+    gap: 20px;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+}
+
+.mario-running{
+    position: absolute;
+    bottom: 100px;
+}
+
+@media (max-width: 450px) {
+    body{
+        background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../Images/Mario\ Background.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+    }
+    .navbar{
+        flex-direction: column;
+        height: auto;
+        padding: 20px;
+    }
+    .nav-links{
+        gap: 10px;
+    }
+    .hero{
+        height: 100vh;
+        padding: 20px;
+    }
+    .hero-content{
+        width: 90%;
+    }
+    .mario-running{
+        display: none;
+    }
+}
