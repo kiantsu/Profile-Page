@@ -10,6 +10,7 @@ body{
     background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),  url(../Images/Super_Mario_Clouds.gif);
     background-repeat: no-repeat;
     background-size: cover;
+    height: 100vh;
 }
 
 .navbar{
@@ -78,7 +79,7 @@ body{
     justify-content: center;
     align-items: center;
     text-align: center;
-    height: 72vh;
+    height: 50vh;
 }
 
 .social-background{
@@ -118,4 +119,3 @@ h1{
     width: 50px;
     height: 50px;
 }
-

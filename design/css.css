@@ -9,6 +9,7 @@ body{
     background: url(../Images/mario.gif);
     background-repeat: no-repeat;
     background-size: cover;
+    height: 100vh;
 }
 
 .navbar{
@@ -45,7 +46,6 @@ body{
     justify-content: center;
     text-align: center;
     height: 90vh;
-    margin-bottom: 70px;
 }
 
 .hero-content{

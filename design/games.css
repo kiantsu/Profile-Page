@@ -10,6 +10,7 @@ body{
     background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),  url(../Images/Super_Mario_Clouds.gif);
     background-repeat: no-repeat;
     background-size: cover;
+    height: 100vh;
 }
 .navbar{
     background-color: transparent;
@@ -51,10 +52,6 @@ nav button:hover{
     transform: scale(0.9);
     background-color: #0801cf;
     box-shadow: 0 0 3px #000000, 0 0 7px #676767, 0 0 20px #ffffff;
-}
-
-.games{
-    height: 74.5vh;
 }
 
 .games-container{
