@@ -90,3 +90,29 @@ nav button:hover{
     transform: scale(1.05);
     box-shadow: 5px 20px 30px rgba(36, 2, 122, 0.541);
 }
+
+@media (max-width: 450px) {
+.games-background{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px;
+    width: 90%;
+    gap: 5px;
+    padding: 20px;
+    border-radius: 20px;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    }
+
+    .game{
+    text-align: center;
+    width: 100px;
+    height: 150px;
+    padding: 5px;
+    }
+
+    .games img{
+    width: 50%;
+    height: auto;
+    }
+}

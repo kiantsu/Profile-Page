@@ -100,3 +100,23 @@ h1{
     background-color: blue;
     border-radius: 20px;
 }
+
+@media (max-width: 450px) {
+    .navbar{
+        flex-direction: column;
+        height: auto;
+        padding: 20px;
+    }
+    .nav-links{
+        gap: 10px;
+    }
+    .card {
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    .picture {
+        width: 100%;
+        height: auto;
+    }
+}

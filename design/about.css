@@ -147,9 +147,6 @@ body{
         height: 130vh;
         padding: 20px;
     }
-    .hero-content{
-        /* width: 90%; */
-    }
     .mario-flying{
         display: none;
     }

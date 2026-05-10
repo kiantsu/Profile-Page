@@ -119,3 +119,41 @@ h1{
     width: 50px;
     height: 50px;
 }
+
+@media (max-width: 450px){
+    body{
+        background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),  url(../Images/Super_Mario_Clouds.gif);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: auto;
+    }
+    .navbar{
+        flex-direction: column;
+        height: auto;
+        padding: 20px;
+    }
+    .nav-links{
+        gap: 10px;
+    }
+    .social-background{
+        flex-direction: column;
+        height: 100vh;
+        padding: 20px;
+    }
+
+    .social{
+        width: 200px;
+        display: flex;
+        justify-content: left;
+    }
+
+    .social img{
+        width: 30px;
+        height: 30px;
+    }
+
+    .social-media{
+        height: 100vh;
+        margin: 20px;
+    }
+}
