@@ -102,7 +102,6 @@ body{
         background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../Images/Mario\ Background.jpg);
         background-repeat: no-repeat;
         background-size: cover;
-        height: 100vh;
     }
     .navbar{
         flex-direction: column;
@@ -113,8 +112,36 @@ body{
         gap: 10px;
     }
     .hero{
-        height: 120vh;
+        padding-top: 200px;
+        height: 100%;
+    }
+    .hero-content{
+        width: 90%;
+    }
+    .mario-running{
+        display: none;
+    }
+}
+
+@media (max-width: 370px) {
+    body{
+        background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../Images/Mario\ Background.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .navbar{
+        flex-direction: column;
+        height: auto;
         padding: 20px;
+        font-size: 14px;
+    }
+    .nav-links{
+        gap: 10px;
+    }
+    .hero{
+        padding-top: 200px;
+        height: 100%;
+        font-size: 14px;
     }
     .hero-content{
         width: 90%;

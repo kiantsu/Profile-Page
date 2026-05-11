@@ -120,3 +120,24 @@ h1{
         height: auto;
     }
 }
+
+@media (max-width: 370px) {
+    .navbar{
+        flex-direction: column;
+        height: auto;
+        padding: 20px;
+        font-size: 14px;
+    }
+    .nav-links{
+        gap: 10px;
+    }
+    .card {
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    .picture {
+        width: 100%;
+        height: auto;
+    }
+}

@@ -213,12 +213,38 @@ h1{
         background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),  url(../Images/Super_Mario_Clouds.gif);
         background-repeat: no-repeat;
         background-size: cover;
-        /* height: 100vh; */
     }
     .navbar{
         flex-direction: column;
         height: auto;
         padding: 20px;
+    }
+    .nav-links{
+        gap: 10px;
+    }
+
+    .skills-list-box{
+        width: 90%;
+        margin: 100px auto;
+    }
+
+    .sport-skill img{
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-width: 370px) {
+    body{
+        background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),  url(../Images/Super_Mario_Clouds.gif);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .navbar{
+        flex-direction: column;
+        height: auto;
+        padding: 20px;
+        font-size: 14px;
     }
     .nav-links{
         gap: 10px;

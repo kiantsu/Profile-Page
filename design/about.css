@@ -144,10 +144,42 @@ body{
         gap: 10px;
     }
     .hero{
-        height: 130vh;
-        padding: 20px;
+        height: 125vh;
+        padding-top: 200px;
     }
     .mario-flying{
         display: none;
     }
+    .hero-content{
+        width: 90%;
+    }
+    
+}
+
+@media (max-width: 370px) {
+    body{
+        background: url(../Images/Mario\ Background.jpg);
+        background-repeat: no-repeat;
+        height: 100vh;
+    }
+    .navbar{
+        flex-direction: column;
+        height: auto;
+        padding: 20px;
+        font-size: 14px;
+    }
+    .nav-links{
+        gap: 10px;
+    }
+    .hero{
+        height: 150vh;
+        padding-top: 200px;
+    }
+    .mario-flying{
+        display: none;
+    }
+    .hero-content{
+        width: 90%;
+    }
+    
 }
